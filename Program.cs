@@ -32,8 +32,8 @@ Console.WriteLine($"Name: {player1.Name}");
 Console.WriteLine($"Name: {player2.Name}");
 Console.WriteLine();
 
-List<Player> _players = new() { player1, player2 };
+List<Player> players = new() { player1, player2 };
 
-Game.Play(_players);
+Game.Play(players);
 
 Console.ReadLine();

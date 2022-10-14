@@ -14,7 +14,7 @@ internal static class GameHelpers
         {
             Console.Write("Choose a number (Between 1 and 5): ");
             int.TryParse(Console.ReadLine(), out guessNum);
-        } while (guessNum < 1 || guessNum > 5);
+        } while (guessNum is < 1 or > 5);
 
         return guessNum;
     }
